@@ -1,24 +1,23 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import Test from './components/test'
+// import Gallery from './components/gallery'
+import Articles from './components/Articles'
+
+// import Hello from './components/Hello'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    {/* <Hello language='ko' name='Jisoo'/>
+    <Hello language='ko' name='Jennie'/>
+    <Hello language='en' name='Rosé'/>
+    <Hello language='en' name='Lisa'/> */}
+    {/* <Test type='hip-hop' name='벌장난'/>
+    <Test type='sentimental' name='Hope Not'/> */}
+    {/* <Gallery/> */}
+    <Articles/>
+    
     </div>
   );
 }
