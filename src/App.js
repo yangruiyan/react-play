@@ -1,9 +1,10 @@
 import React from 'react';
 // import Test from './components/test'
 // import Gallery from './components/gallery'
-import Articles from './components/Articles'
-
-// import Hello from './components/Hello'
+// import Articles from './components/Articles'
+// import Test2 from './components/test2'
+import Hello from './components/Hello'
+import Stateful from './components/Stateful'
 
 
 function App() {
@@ -16,7 +17,9 @@ function App() {
     {/* <Test type='hip-hop' name='벌장난'/>
     <Test type='sentimental' name='Hope Not'/> */}
     {/* <Gallery/> */}
-    <Articles/>
+    {/* <Articles/> */}
+    {/* <Test2 age={15}/> */}
+    <Stateful/>
     
     </div>
   );
